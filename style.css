@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-image: linear-gradient(18deg, rgb(17, 200, 220), rgb(90, 67, 121)) ;
+    min-height: 100vh;
+    padding: 32px 16px;
+
+}
+.container {
+    max-width: 280px;
+    margin: 0 auto;
+
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+    
+}
+.container h1 {
+    margin-bottom: 32px;
+}
+.container h2 {
+    margin-bottom: 16px;
+}
+
+form {
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+input, button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    
+}
+
+.todo {
+    list-style: none;
+    background-color: white;
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.todo span {
+    flex-grow: 1;
+}
+.todo .first-icon {
+    margin-right: 8px;
+} 
+button, i {
+    cursor: pointer;
+}
+button i:hover {
+    color: #5050ff;
+
+}
+i.fa-trash:hover {
+    color: #ff5050;
+}
+.completed {
+    opacity: 0.7;
+}
+.completed span {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
